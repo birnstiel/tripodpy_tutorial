@@ -1,0 +1,25 @@
+[workspace]
+authors = ["Til Birnstiel <birnstiel@me.com>"]
+channels = ["conda-forge"]
+name = "tripodenv"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+install_kernel = 'python -m ipykernel install --sys-prefix --name "Pixi-TRIPODPY" --display-name "Pixi (TRIPODPY)"'
+uninstall_kernel = 'jupyter kernelspec uninstall Pixi-TRIPODPY'
+notebook = 'python -m jupyter lab ../tripodpy.ipynb'
+
+[dependencies]
+python = ">=3.13,<3.14"
+jupyter = ">=1.1.1,<2"
+ipykernel = ">=7.2.0,<8"
+numpy = ">=2.4.2,<3"
+scipy = ">=1.17.1,<2"
+matplotlib = ">=3.10.8,<4"
+astropy = ">=7.2.0,<8"
+pip = ">=26.0.1,<27"
+meson-python = ">=0.19.0,<0.20"
+
+[pypi-dependencies]
+tripodpy = {path="../tripodpy"}
