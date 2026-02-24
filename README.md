@@ -24,11 +24,17 @@ cd tripodpy_tutorial/tripodenv
 pixi run notebook
 ```
 
+Of course you can also manually install the package with `pip install .` and run
+the notebook with your own Jupyter environment.
+
 > **Note**  
 > If you want this environment to be available in Jupyter, you can install the
 > kernel with
 > 
-> ```bash pixi run install_kernel ```
+> ```bash  
+> pixi run install_kernel  
+> ```
 > 
-> Clean up the environment with `pixi clean` or remove the Kernel with
-`pixi run uninstall_kernel`.
+> It will be called `Pixi (TRIPODPY)`. Remove the Kernel with
+`pixi run uninstall_kernel`. The entire environment is stored hidden in that
+`tripodenv` folder. To clean it up, run `pixi clean` in that folder.
