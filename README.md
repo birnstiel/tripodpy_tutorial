@@ -1,7 +1,7 @@
 # TriPoDPy Mini-Tutorial
 
 A very short tutorial for the
-[`tripodpy`](https://github.com/tripod-code/tripodpy) code. To learn me, read
+[`tripodpy`](https://github.com/tripod-code/tripodpy) code. To learn more, read
 the [documentation](https://tripodpy.readthedocs.io/en/latest/).
 
 To run it fully self contained, you can use
