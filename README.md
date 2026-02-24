@@ -1,19 +1,21 @@
-# Readme
+# TriPoDPy Mini-Tutorial
 
-Mini-Tutorial for the [`tripodpy`](https://github.com/tripod-code/tripodpy)
-code.
+A very short tutorial for the
+[`tripodpy`](https://github.com/tripod-code/tripodpy) code. To learn me, read
+the [documentation](https://tripodpy.readthedocs.io/en/latest/).
 
 To run it fully self contained, you can use
 [pixi](https://pixi.prefix.dev/latest/installation/), a fast, modern, and light
 package management.
 
-> **Note** If you don't have pixi, just install it:
+> **Note** If you don't have pixi, install it with this one-liner:
 > 
 > ```bash curl -fsSL https://pixi.sh/install.sh | sh ```
 
 ## Running the tutorial
 
-With pixi, we can just install the environment and run the tutorial notebook.
+With pixi available, we can download and install the code and python environment
+and run the tutorial notebook with the following commands:
 
 
 ```bash
@@ -24,8 +26,8 @@ cd tripodpy_tutorial/tripodenv
 pixi run notebook
 ```
 
-Of course you can also manually install the package with `pip install .` and run
-the notebook with your own Jupyter environment.
+Of course, you can also manually install the package with `pip install .` and
+run the notebook with your own Jupyter environment.
 
 > **Note**  
 > If you want this environment to be available in Jupyter, you can install the
